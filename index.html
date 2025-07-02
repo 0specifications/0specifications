@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Indie Game Dev - Your Name</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #eee;
+      margin: 0; padding: 0;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #e63946;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #e63946;
+    }
+    header p {
+      font-style: italic;
+      margin-top: 0.5rem;
+      color: #aaa;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      border-bottom: 2px solid #e63946;
+      padding-bottom: 0.5rem;
+      color: #e63946;
+    }
+    .games {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .game {
+      background: #282828;
+      border-radius: 8px;
+      padding: 1rem;
+      width: 250px;
+      box-shadow: 0 0 10px #e63946aa;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+    .game:hover {
+      transform: scale(1.05);
+    }
+    .game img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .game h3 {
+      margin: 0.5rem 0 0.2rem;
+    }
+    .game p {
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+      border-top: 1px solid #333;
+      margin-top: 3rem;
+    }
+    a {
+      color: #e63946;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Indie Game Developer | Pixel Artist | Dreamer</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>Hi! I'm an indie game developer passionate about creating unique pixel art games with engaging stories and gameplay. I love crafting worlds where players can lose themselves and find joy.</p>
+    </section>
+
+    <section>
+      <h2>My Games</h2>
+      <div class="games">
+        <div class="game" onclick="window.open('https://example.com/game1', '_blank')">
+          <img src="https://via.placeholder.com/250x140?text=Game+1" alt="Game 1" />
+          <h3>Pixel Quest</h3>
+          <p>An epic pixel art adventure through mysterious lands.</p>
+        </div>
+        <div class="game" onclick="window.open('https://example.com/game2', '_blank')">
+          <img src="https://via.placeholder.com/250x140?text=Game+2" alt="Game 2" />
+          <h3>Neon Racer</h3>
+          <p>Fast-paced futuristic racing with neon vibes.</p>
+        </div>
+        <div class="game" onclick="window.open('https://example.com/game3', '_blank')">
+          <img src="https://via.placeholder.com/250x140?text=Game+3" alt="Game 3" />
+          <h3>Dungeon Pixels</h3>
+          <p>A challenging roguelike with pixel charm.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+      <p>You can reach me on <a href="https://www.reddit.com/user/devm15Studios/" target="_blank">Reddit</a> <a href="https://github.com/0specifications" target="_blank">or GitHub</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Your Name — Built with ❤️ and GitHub Pages
+  </footer>
+</body>
+</html>
